@@ -1,0 +1,39 @@
+Package: appkitr
+Title: Utilities to Work with 'GESIS AppKit' Data
+Version: 2.0.0.5
+Authors@R: c(
+    person("Maximilian", "Haag", , "mail@mxhg.org", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0334-9270")),
+    person("Charlotte", "de Alwis", , "charlotte.dealwis@gesis.org", role = "aut",
+           comment = c(ORCID = "0009-0004-8903-7500")),
+    person("Julian", "Kohne", , "julian.kohne@gesis.org", role = "aut",
+           comment = c(ORCID = "0000-0002-6710-7545")),
+    person("GESIS - Leibniz Institute for the Social Sciences", role = "cph")
+  )
+Description: Provides helper functions for importing and processing survey
+    data exported from the 'GESIS AppKit' platform
+    <https://www.gesis.org/en/gesis-appkit>. Includes support for
+    extracting variable and value labels from 'SPSS' syntax files,
+    and automatically attaching these labels to raw CSV survey data for
+    clean analysis.
+License: Apache License (>= 2)
+URL: https://gitlab.com/gesis-appkit/appkitr,
+        https://gesis-appkit.gitlab.io/appkitr
+BugReports: https://gitlab.com/gesis-appkit/appkitr/-/work_items
+Depends: R (>= 4.1.0)
+Imports: cli, stats, utils, withr
+Suggests: testthat (>= 3.0.0)
+Config/roxygen2/version: 8.1.0
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2026-10-28 12:14:38 UTC; maxhaag
+Author: Maximilian Haag [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-0334-9270>),
+  Charlotte de Alwis [aut] (ORCID:
+    <https://orcid.org/0009-0004-8903-7500>),
+  Julian Kohne [aut] (ORCID: <https://orcid.org/0000-0002-6710-7545>),
+  GESIS - Leibniz Institute for the Social Sciences [cph]
+Maintainer: Maximilian Haag <mail@mxhg.org>
+Repository: CRAN
+Date/Publication: 2026-11-13 16:40:27 UTC
